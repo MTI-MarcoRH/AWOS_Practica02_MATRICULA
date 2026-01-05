@@ -12,4 +12,9 @@ Esta práctica será desarrollada con estructura de ramales, para el estudiante 
 </p>
 
 
+### Tabla de Ejercicios
+
+|No.|Descripción|Potenciador|Estatus|
+|1.| Declaración de Varibles| 1 | 💻En progreso |
+
 
