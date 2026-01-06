@@ -1,70 +1,68 @@
-html{
+html 
+{
     box-sizing: border-box;
-    font-size: 62.5%;
+   font-size: 62.5%;
+}
+/* Estas propiedades definen el tamaño de la fuente de toda la página y 
+agregar márgenes de tipo caja*/ 
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    background-color: #577dbb;
 }
 
-body{
-    font-size: 1.6rem;
-    font-family: 'lato','sans-serif';
-    background-color: rgb(125, 195, 144);
-}
-/*Estas propiedades son el antes y el despues de box sizing */
-*,*:before,*::after{
+*, *:before, *:after {
     box-sizing: inherit;
 }
 
-header{
+header {
     padding: 3rem 0;
 }
 
-header h1{
+
+header h1 {
     text-align: center;
-    color: rgb(10, 20, 11);
+    color: #ffffff;
     font-size: 6rem;
 }
 
-header p{
-    color: rgb(210, 74, 74);
+header p {
+    color: #1b1b1b;
     text-align: center;
-    font-size: 3.2 rem;
-
+    font-size: 3.2rem;
+}
+header p a {
+    text-decoration: none;
+    color: #4cabea;
 }
 
-header p a{
-    text-decoration: none ;
-    color: rgb(217, 255, 0);
-}
-
-.DOM{
+.DOM {
     max-width: 120rem;
-    margin: 0  auto;
+    margin: 0 auto;
 }
-
-.DOM h2{
-    color: rgb(93, 32, 32);
+.DOM h2 {
+    color: #FFF;
     text-align: center;
 }
-
-.DOM nav a{
-    color: aliceblue;
-    font-size: 20 px;
+.DOM nav a {
+    color: #FFF;
+    font-size: 20px;
     text-decoration: none;
     margin-right: 10px;
 }
 
-.DOM p{
-    color: blue;
+.DOM p {
+    color: #2563EB;
     font-size: 20px;
 }
 
-.DOM #formulario{
+.DOM #formulario {
     max-width: 500px;
     margin: 0 auto;
-
 }
-
-.DOM #formulario input{
-    display:block;
+.DOM #formulario input {
+    display: block;
     width: 100%;
     border: none;
     margin-bottom: 2rem;
@@ -72,18 +70,26 @@ header p a{
     border-radius: 1rem;
 }
 
-.alerta{
+
+.DOM #formulario input[type="submit"] {
+    background-color: #2563EB;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.alerta {
     padding: 1rem;
     text-align: center;
-    color: azure;
+    color: #FFF;
     text-transform: uppercase;
     font-size: 20px;
 }
-
-.alerta.error{
-    background-color: red;
+.alerta.error {
+    background-color: rgb(162, 0, 0);
+}
+.alerta.exito {
+    background-color: rgb(7, 145, 7);;
 }
 
-.alerta.exito{
-    background-color: green;
-}
