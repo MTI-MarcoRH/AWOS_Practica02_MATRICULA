@@ -5,9 +5,13 @@
     multilínea
 */
 
+// Personalizacióin de salidas a Consola
+const bg= "linear-gradient(45deg, rgba(52, 152, 219, 1) 0%, rgba(26, 188, 156, 1) 50%)";
+const style_console = `background: ${bg}; color:white; border-radius: 6px; padding:4px; font-size:1.0rem; font-weight:bold`
+
 // EJERCICIO 01: Declaración de Variables en JavaScript
 // 1. Utilizando la palabra reservada VAR
-
+console.log("%c1.- Ejercicio 01: Declaración de Variables ",style_console);
 // Utilizaremos el métdodo WARN para estilizar las respuestas de las pruebas realizadas a nuestro código, y facilitar su revisión
 
 console.warn("-- Declaración de Variables utilizando el prefijo VAR --")
@@ -39,7 +43,7 @@ console.log("El valor de la constante miMatricula es: ", miMatricula);*/
 
 // 3. Utilizando la palabra reservada LET
 // LET es el prefijo utilizado muy similar a VAR con la diferencia en su alcance (SCOPE), aquellas declaradas con VAR tienen un alcance globlal en el código no importando bloques o secciones, mientras que las variables declaradas con let solo existiran dentro del bloque o función.
-
+console.warn("-- Declaración de una Constante utilizando el prefijo LET --")
 var fechaNacimiento = new Date("1989-10-16");
 var miEdad = calcularEdad(fechaNacimiento);
 console.log("Tu edad es de: ",miEdad, " años.");
@@ -79,14 +83,9 @@ function calcularEdad(fechaNacimiento)
 
 }
 
-
 // Interpolación de Datos
-
 // $ {}  `
 misApellidos="Ramírez Hernández";
 console.log(`Hola, ${miNombre} ${misApellidos} actualmente tienes ${miEdad} años.`);
-
-
-
 
 // Autor: Su nombre aquí.
