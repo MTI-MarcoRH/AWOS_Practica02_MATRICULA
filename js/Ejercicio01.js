@@ -11,7 +11,7 @@ const style_console = `background: ${bg}; color:white; border-radius: 6px; paddi
 
 // EJERCICIO 01: Declaración de Variables en JavaScript
 // 1. Utilizando la palabra reservada VAR
-console.log("%c1.- Ejercicio 01: Declaración de Variables ",style_console);
+console.log("%cEjercicio 01: Declaración de Variables ",style_console);
 // Utilizaremos el métdodo WARN para estilizar las respuestas de las pruebas realizadas a nuestro código, y facilitar su revisión
 
 console.warn("-- Declaración de Variables utilizando el prefijo VAR --")
