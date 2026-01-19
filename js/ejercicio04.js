@@ -45,7 +45,7 @@ property1 = {
     includedServices :  ["Agua", "Luz", "Gas"],
     lat: 19.4283813,
     long: -99.1020177,
-    status: Symbol("D-12558-CDMX-MX-S"), 
+    status: "Good", 
     token: Symbol("D-12558-CDMX-MX-S") ,
     ownerID: 32412
 
